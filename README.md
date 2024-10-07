@@ -4,7 +4,6 @@ This repository contains the code and artifacts for the analysis of Wikipedia ar
 
 The aim of this analysis is to visualize the desktop and mobile traffic trends for these rare diseases and try to unearth any patterns within the data.  
 
-## License
 The data used in this work is licensed under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) license. The data gathered is subject to the [Wikimedia Foundation terms of use](https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use) which states that users can freely access and reuse the content on Wikimedia platforms, including articles and datasets, under free and open licenses. Any contributions made to Wikimedia platforms must be licensed under a free and open license, allowing the content to be freely shared and reused by others. Users are responsible for their edits and contributions and must adhere to laws, avoid copyright infringement, and respect the platform's policies.
 
 To gather the trafiic data, we use the Wikimedia Analytics Pageviews API ([documentation](https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/reference/page-views.html)).  The Pageviews API provides data pertaining to desktop, mobile web, and mobile app traffic data starting from July 2015 through the previous complete month. As of writing this analysis, this consists of 111 months of data (if available). Some articles created after 2015 will have lesser number of months in the data. The extracted data is stored in JSON files ordered using the article title as the key. 
